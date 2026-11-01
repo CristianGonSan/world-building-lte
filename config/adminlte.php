@@ -65,7 +65,7 @@ return [
     */
 
     'use_ico_only'     => false,
-    'use_full_favicon' => false,
+    'use_full_favicon' => true,
 
     /*
     |--------------------------------------------------------------------------
@@ -86,8 +86,8 @@ return [
     */
 
     'logo'              => '<b>Worldbuilding</b>LTE',
-    'logo_img'          => 'vendor/adminlte/dist/assets/img/AdminLTELogo.png',
-    'logo_img_class'    => 'brand-image opacity-75 shadow',
+    'logo_img'          => 'images/logos/wlte-logo.png',
+    'logo_img_class'    => 'brand-image opacity-75 rounded shadow',
     'logo_img_xl'       => null,
     'logo_img_xl_class' => 'brand-image-xs opacity-75',
     'logo_img_alt'      => 'WorldbuildingLTE Logo',
@@ -108,7 +108,7 @@ return [
     'auth_logo' => [
         'enabled' => false,
         'img'     => [
-            'path'   => 'vendor/adminlte/dist/assets/img/AdminLTELogo.png',
+            'path'   => 'images/logos/wlte-logo.png',
             'alt'    => 'Auth Logo',
             'class'  => '',
             'width'  => 50,
@@ -144,7 +144,7 @@ return [
         'enabled' => true,
         'mode'    => 'fullscreen',
         'img'     => [
-            'path'   => 'vendor/adminlte/dist/assets/img/WorldbuildingLTELogo.png',
+            'path'   => 'images/logos/wlte-logo.png',
             'alt'    => 'WorldbuildingLTE Preloader Image',
             'effect' => 'animation__shake',
             'width'  => 60,
@@ -507,7 +507,7 @@ return [
     |
     */
 
-    'layout_topnav'        => true,
+    'layout_topnav'        => null,
     'layout_fixed_sidebar' => true,
     'layout_fixed_navbar'  => true,
     'layout_fixed_footer'  => null,
